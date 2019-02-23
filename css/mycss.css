@@ -1,0 +1,61 @@
+@media only screen and (max-width: 420px)  {
+    .filter12{
+        margin-top: 2px;
+        margin-right: 70%;
+    }
+
+    .sortby12{
+        margin-top: 2px;
+    }
+
+    .img12{
+        align-content: center;
+    }
+
+    .campaign12{
+        float: left ;
+        font-size: small;
+        font-weight: bolder;
+    }
+
+    .date-time{
+        float: left ;
+        font-size: xx-small;
+        margin-top: 5px;
+    }
+
+    .type12{
+        margin-top: 15px;
+        float: left;
+        font-size: small;
+    }
+
+    .of12{
+        margin-top: 15px;
+        float: left;
+        font-size: small;
+    }
+
+    .team_members{
+        margin-top: 10px;
+        float: left;
+        font-size: small;
+    }
+
+    .inlineLeft, .inlineRight {
+        position:absolute;
+        display: inline;
+
+    }
+
+    .inlineRight {
+        right:15px;
+
+    }
+
+    .div-border{
+        border-left: none;
+    }
+
+
+}
