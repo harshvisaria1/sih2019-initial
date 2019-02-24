@@ -102,3 +102,7 @@ function ClearFields() {
 
     document.getElementById("textfield1").value = "";
 }
+
+function GoBack(){
+        location.href="../campaignDetails.html"
+}
