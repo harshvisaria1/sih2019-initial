@@ -27,10 +27,10 @@
                 <h3> Actions</h3>
 
 
-        <div style="height:40px;"></div>
+        <div style="height:80px;"></div>
         <div class="assessment-container container">
             <div class="row">
-                <div class="col-md-6 form-box">
+                <div class="col-md-9">
                     <form role="form" class="registration-form" action="javascript:void(0);">
                         <fieldset>
                             <div class="form-top">
@@ -41,31 +41,50 @@
                             </div>
                             <div class="form-bottom">
                                 <div class="row">
-                                    <div class="form-group col-md-6 col-sm-6">
-                                        <input type="text" class="form-control" placeholder="Firstname" id="fname">
-                                    </div>
-                                    <div class="form-group col-md-6 col-sm-6">
-                                        <input type="text" class="form-control" placeholder="Lastname" id="lname">
-                                    </div>
-                                </div>
+                                    <div class="form-group col-md-12 col-sm-6">
+                                        <input type="text" class="form-control" placeholder="Team Name .." id="fname" />
 
-                                <div class="form-group col-md-9 col-sm-9">
-                                    <input type="text" class="form-control" placeholder="Contact Number" id="contact_number">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="email" placeholder="Email" class="form-email form-control" id="email" required>
-                                </div>
+                                    <!--<div class="form-group col-md-6 col-sm-6">-->
+                                        <!--<input type="text" class="form-control" placeholder="Lastname" id="lname">-->
+                                    <!--</div>-->
+                                        <div class="form-group">
+                                            <input style="margin-top: 10px;" type="tel" name="TeamNumber" placeholder="Team Contact No.." class="form-control" id="email" required>
+                                        </div>
 
-                                <div>
-                                    <input id="action_id" name="action_id" type="Email" placeholder="Enter email here.." class="form-control input-md">
-                                    <div id="field">
-                                </div>
+                                        <div class="form-group">
+                                            <input type="text" name="TeamEmail" placeholder="Team Email Id.. " class="form-control" id="email" required>
+                                        </div>
 
-                                <div class="form-group">
-                                    <div class="col-md-4">
-                                        <button id="add-more" name="add-more" class="btn btn-primary">Add More</button>
+                                        <!--<input type="username" name="UserName" placeholder="Enter Username Of Your team-mates" width="100%">-->
+                                        <!--<button type="button" onclick="ClearFields();">Clear</button>-->
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="textfield1" placeholder="Add Your Team-mate's Username." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <button style="float: right" class="btn btn-outline-secondary" type="button" onclick="ClearFields();">Add Teammate</button>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                 </div>
+
+                                <!--<div class="form-group">-->
+                                    <!--<input type="number" name="contact" placeholder="Team Contact No.." class="form-email form-control" id="email" required>-->
+                                <!--</div>-->
+
+
+                                <!-- Previous ADD MORE BUTTON -->
+                                <!--<div>-->
+                                    <!--&lt;!&ndash;<input id="action_id" name="action_id" type="Email" placeholder="Enter email here.." class="form-control input-md">&ndash;&gt;-->
+                                    <!--<input id="action_id" name="action_id" type="email" placeholder="enter name here.. " class="form-control input-md"-->
+                                    <!--<div id="field">-->
+                                <!--</div>-->
+
+                                <!--<div class="form-group">-->
+                                    <!--<div class="col-md-4">-->
+                                        <!--<button id="add-more" name="add-more" class="btn btn-primary">Add More</button>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+
+
                                 <!-- DropDown-->
                                 <!--<div class="form-group" style="margin-bottom:3px;">-->
                                     <!--<div class="row">-->
@@ -82,15 +101,16 @@
                                     <!--</div>-->
                                 <!--</div>-->
 
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option>Gender</option>
-                                        <option>Male</option>
-                                        <option>Female</option>
-                                    </select>
-                                </div>
+                                <!--<div class="form-group">-->
+                                    <!--<select class="form-control">-->
+                                        <!--<option>Gender</option>-->
+                                        <!--<option>Male</option>-->
+                                        <!--<option>Female</option>-->
+                                    <!--</select>-->
+                                <!--</div>-->
 
-                                <button type="button" class="btn btn-next">Next</button>
+                                <button type="button" class="btn btn-back">Go Back</button>
+                                <button type="button" class="btn btn-next float" style="float: right" >Next</button>
                             </div>
                         </fieldset>
                         <fieldset>
@@ -132,9 +152,8 @@
                 </div>
             </div>
         </div>
-     </div>
+    </div>
   </div>
-</div>
 
 </body>
 </html>

@@ -97,3 +97,8 @@ $(document).ready(function () {
 
 
 });
+
+function ClearFields() {
+
+    document.getElementById("textfield1").value = "";
+}
