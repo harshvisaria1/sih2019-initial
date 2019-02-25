@@ -104,5 +104,14 @@ function ClearFields() {
 }
 
 function GoBack(){
-        location.href="../campaignDetails.html"
+        location.href="../campaignDetails.html";
+}
+
+function submitForm() {
+
+    location.href='../index.html';
+
+    window.alert('successfully submitted');
+
+    return true;
 }

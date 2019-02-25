@@ -30,8 +30,8 @@
         <div class="assessment-container container">
             <div class="row">
                 <div class="col-md-9">
-                    <form role="form" class="registration-form" action="javascript:void(0);">
-                        <fieldset>
+                    <form role="form" class="registration-form " action="javascript:void(0);">
+                        <fieldset class="shadow border-success">
                             <div class="form-top">
                                 <div class="form-top-left">
                                     <h3><span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span>Please enter your details here :</h3>
@@ -113,39 +113,87 @@
                             </div>
                         </fieldset>
                         <fieldset>
+
                             <div class="form-top">
                                 <div class="form-top-left">
-                                    <h3><span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span> Lorem ipsum dolor sit amet</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    </p>
+                                    <h3><span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span>Please enter your Problem Statement details here :</h3>
+                                    <p>Select fields where needed!</p>
                                 </div>
                             </div>
                             <div class="form-bottom">
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option>Location</option>
-                                        <option>Location</option>
-                                        <option>Location</option>
-                                        <option>Location</option>
-                                        <option>Locationa</option>
-                                    </select>
+                                <div class="row">
+                                    <div class="form-group col-md-12 col-sm-6">
+                                        <input type="text" class="form-control" placeholder="Enter Theme Of Your Idea.." id="fname" />
+                                    </div>
+                                        <!--<div class="form-group col-md-6 col-sm-6">-->
+                                        <!--<input type="text" class="form-control" placeholder="Enter Title For Your Idea.." id="lname">-->
+                                        <!--</div>-->
+                                        <!--<div class="form-group">-->
+                                            <!--<input style="margin-top: 10px;" type="tel" name="TeamNumber" placeholder="Team Contact No.." class="form-control" id="teamNumber" required>-->
+                                        <!--</div>-->
+
+                                        <div class="form-group">
+                                            <input type="text" name="TeamEmail" placeholder="Enter Title For Your Idea.." class="form-control" id="email" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="comment">Idea Description:</label>
+                                            <textarea class="form-control" rows="5" cols="6" id="comment" maxlength="1500"></textarea>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label for="teamIdea">Enter Your Solution In PDF Format:</label>
+                                            <input type="file" name="TeamIdea" accept=".pdf" class="form-control" id="teamIdea" required>
+                                        </div>
+
+                                        <!--<input type="username" name="UserName" placeholder="Enter Username Of Your team-mates" width="100%">-->
+                                        <!--<button type="button" onclick="ClearFields();">Clear</button>-->
+                                        <!--<div class="mb-3">-->
+                                            <!--<input type="text" class="form-control" id="textfield1" placeholder="Add Your Team-mate's Username." disabled aria-label="Recipient's username" aria-describedby="basic-addon2">-->
+                                            <!--<div class="input-group-append">-->
+                                                <!--<button style="float: right" class="btn btn-outline-secondary" type="button" onclick="ClearFields();">Add Teammate</button>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+
+                                    <button type="button" class="btn btn-previous">Previous</button>
+                                    <form name="reply" action="example.php" method="post"  onsubmit="return submitForm();">
+                                        <button type="submit" style="float: right" class="btn" formaction="../index.html">Submit</button>
+                                    </form>
                                 </div>
-                                <div class="form-group">
-                                    <input type="date" class="form-control" id="pref_date">
-                                </div>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option>Preffered Time</option>
-                                        <option>Location</option>
-                                        <option>Location</option>
-                                        <option>Location</option>
-                                        <option>Location</option>
-                                        <option>Locationa</option>
-                                    </select>
-                                </div>
-                                <button type="button" class="btn btn-previous">Previous</button>
-                                <button type="submit" class="btn">Submit</button>
                             </div>
+                            <!--<div class="form-top">-->
+                                <!--<div class="form-top-left">-->
+                                    <!--<h3><span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span> Lorem ipsum dolor sit amet</h3>-->
+                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit-->
+                                    <!--</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="form-bottom">-->
+                                <!--<div class="form-group">-->
+                                    <!--<select class="form-control">-->
+                                        <!--<option>Location</option>-->
+                                        <!--<option>Location</option>-->
+                                        <!--<option>Location</option>-->
+                                        <!--<option>Location</option>-->
+                                        <!--<option>Locationa</option>-->
+                                    <!--</select>-->
+                                <!--</div>-->
+                                <!--<div class="form-group">-->
+                                    <!--<input type="date" class="form-control" id="pref_date">-->
+                                <!--</div>-->
+                                <!--<div class="form-group">-->
+                                    <!--<select class="form-control">-->
+                                        <!--<option>Preffered Time</option>-->
+                                        <!--<option>Location</option>-->
+                                        <!--<option>Location</option>-->
+                                        <!--<option>Location</option>-->
+                                        <!--<option>Location</option>-->
+                                        <!--<option>Locationa</option>-->
+                                    <!--</select>-->
+                                <!--</div>-->
+
+                            <!--</div>-->
                         </fieldset>
                     </form>
                 </div>
