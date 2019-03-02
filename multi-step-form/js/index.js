@@ -104,10 +104,11 @@ function ClearFields() {
 }
 
 function GoBack(){
-        location.href="../campaignDetails.html";
+        location.href="../selectedCampaign1.html";
 }
 
 function submitForm() {
+    window.alert('successfully submitted');
 
     location.href='../index.html';
 

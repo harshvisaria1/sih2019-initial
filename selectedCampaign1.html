@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" src="css/sb-admin-2.css">
+
+    <style>
+
+            h1,h4,p{
+                font-family: Nunito;
+            }
+            body, html {
+                height: 100%;
+                font-family: "Nunito";
+            }
+
+
+            .menu {
+                display: none;
+            }
+
+            .bgimg {
+                background-image: url("img-cards.jpg"); /* The image used */
+                /*background-color: #cccccc; !* Used if the image is unavailable *!*/
+                height: 400px; /* You must set a specified height */
+                background-position: center; /* Center the image */
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-size: cover; /* Resize the background image to cover the entire container */
+            }
+
+            hr{
+                width: 5%;
+                border-style: dotted;
+                border-width: 5px;
+                border-top: none;
+                margin: auto;
+            }
+
+</style>
+</head>
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="" style="margin-top: 10px;">
+    <div style="margin: 0 55px" class="w3-row w3-padding">
+        <div class="w3-col s2">
+            <a href="#about" style="font-size:large;" class="w3-button w3-block text-primary font-weight-bold "><span>About</span></a>
+        </div>
+        <div class="w3-col s2">
+            <a href="#theme" style="font-size:large;" class="w3-button w3-block text-primary font-weight-bold ">Themes</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#rANDr" style="font-size:large;" class="w3-button w3-block text-primary font-weight-bold">Rules & Regulations</a>
+        </div>
+        <div class="w3-col s2">
+            <a href="#FAQs" style="font-size:large;" class="w3-button w3-block text-primary font-weight-bold ">FAQs</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#contact" style="font-size:large;" class="w3-button w3-block text-primary font-weight-bold">Contact</a>
+        </div>
+    </div>
+</div>
+
+<div style="margin-top: 25px;" class="w3-display-container text-primary">
+    <br><br>
+    <h1 style="line-height: 2.0;font-size: 50px;" class="w3-center">React Hack 1.0</h1>
+    <h4 style="line-height: 2.0;" class="w3-center">World's Biggest React Hackathon is Coming to India!</h4>
+    <h1 style="line-height: 2.0;" class="w3-center";><button class="btn btn-primary" onclick="register();"> REGISTER </button></h1>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min">
+
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-large">
+
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+        <div class="w3-content" style="max-width:800px">
+            <h1 class="w3-center w3-padding-64"><span style="" class="font-weight-bold text-primary">ABOUT</span></h1>
+            <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+        </div>
+    </div>
+    <br>
+
+    <hr>
+
+    <!-- Menu Container -->
+    <div class="w3-container" id="theme">
+            <h1 class="w3-center w3-padding-48"><span style="color: #4e73df" >Themes</span></h1>
+
+            <div class="w3-row w3-container" style="margin-bottom: 10px; margin-left: 120px">
+                <div style="max-width: 350px;" class="w3-col l4 m6 w3-container w3-padding-16">
+                    <img src="img-cards.jpg">
+                    <h3 style="margin:10px 0 0 100px;" class="text-primary">Design</h3>
+                    <p class="w3-center ">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                </div>
+
+                <div style="max-width: 350px;" class="w3-col l4 m6 w3-container w3-padding-16">
+                    <img src="img-cards.jpg">
+                    <h3 style="margin:10px 0 0 100px;" class="text-primary">Branding</h3>
+                    <p class="w3-center">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                </div>
+
+                <div style="max-width: 350px;" class="w3-col l4 m6 w3-container w3-padding-16">
+                    <img src="img-cards.jpg">
+                    <h3 style="margin:10px 0 0 90px;" class="text-primary">Consultation</h3>
+                    <p class="w3-center">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                </div>
+            </div>
+
+            <!--<div class="w3-row w3-center w3-card w3-padding">-->
+                <!--<a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">-->
+                    <!--<div class="w3-col s6 tablink">Eat</div>-->
+                <!--</a>-->
+                <!--<a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">-->
+                    <!--<div class="w3-col s6 tablink">Drink</div>-->
+                <!--</a>-->
+            <!--</div>-->
+
+            <!--<div id="Eat" class="w3-container menu w3-padding-48 w3-card">-->
+                <!--<h5>Bread Basket</h5>-->
+                <!--<p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>-->
+
+                <!--<h5>Honey Almond Granola with Fruits</h5>-->
+                <!--<p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>-->
+
+                <!--<h5>Belgian Waffle</h5>-->
+                <!--<p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>-->
+
+                <!--<h5>Scrambled eggs</h5>-->
+                <!--<p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>-->
+
+                <!--<h5>Blueberry Pancakes</h5>-->
+                <!--<p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>-->
+            <!--</div>-->
+
+            <!--<div id="Drinks" class="w3-container menu w3-padding-48 w3-card">-->
+                <!--<h5>Coffee</h5>-->
+                <!--<p class="w3-text-grey">Regular coffee 2.50</p><br>-->
+
+                <!--<h5>Chocolato</h5>-->
+                <!--<p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>-->
+
+                <!--<h5>Corretto</h5>-->
+                <!--<p class="w3-text-grey">Whiskey and coffee 5.00</p><br>-->
+
+                <!--<h5>Iced tea</h5>-->
+                <!--<p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>-->
+
+                <!--<h5>Soda</h5>-->
+                <!--<p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>-->
+            <!--</div>-->
+            <!--<img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">-->
+    </div>
+
+    <hr>
+
+    <div class="w3-container w3-center" id="rANDr" style="padding-bottom: 32px;">
+
+        <h1 class="w3-center w3-padding-48"><span class=" font-weight-bold text-primary ">Rules & Regulations</span></h1>
+
+        <div class="w3-content" style="max-width: 700px">
+            <h5 class="w3-left" style="line-height: 2.0; text-align: left;">1. Is it possible to use external libraries and pre-build sources?
+                Yes, it is completely ﬁne to use external libraries and pre-build sources until it is licensed and open source.</h5>
+
+            <h5 class="w3-left" style="line-height: 2.0; text-align: left;">2. Is it possible to use external libraries and pre-build sources?
+                Yes, it is completely ﬁne to use external libraries and pre-build sources until it is licensed and open source.</h5>
+
+            <h5 class="w3-left" style="line-height: 2.0; text-align: left;">3. Is it possible to use external libraries and pre-build sources?
+                Yes, it is completely ﬁne to use external libraries and pre-build sources until it is licensed and open source.</h5>
+
+            <!--<h5 style="line-height: 2.0;">Q: <span> Is it possible to use external libraries and pre-build sources? </span><br>-->
+                <!--A:<span>Yes, it is completely ﬁne to use external libraries and pre-build sources until it is licensed and open source.-->
+            <!--</span></h5>-->
+        </div>
+    </div>
+
+    <hr>
+
+        <div class="w3-container w3-center" id="FAQs" style="padding-bottom: 32px;">
+
+        <h1 class="w3-center w3-padding-48"><span class=" font-weight-bold text-primary">FAQs</span></h1>
+
+        <div class="w3-content" style="max-width: 700px">
+            <h5 style="line-height: 2.0;">Q: <span> Is it possible to use external libraries and pre-build sources? </span><br>
+            A:<span>Yes, it is completely ﬁne to use external libraries and pre-build sources until it is licensed and open source.
+            </span></h5>
+
+            <h5 style="line-height: 2.0">Q: <span> Is it possible to use external libraries and pre-build sources? </span><br>
+                A:<span>Yes, it is completely ﬁne to use external libraries and pre-build sources until it is licensed and open source.
+            </span></h5>
+
+            <h5 style="line-height: 2.0;">Q: <span> Is it possible to use external libraries and pre-build sources? </span><br>
+                A:<span>Yes, it is completely ﬁne to use external libraries and pre-build sources until it is licensed and open source.
+            </span></h5>
+
+            <h5 style="line-height: 2.0;">Q: <span> Is it possible to use external libraries and pre-build sources? </span><br>
+                A:<span>Yes, it is completely ﬁne to use external libraries and pre-build sources until it is licensed and open source.
+            </span></h5>
+        </div>
+    </div>
+
+    <!-- Contact/Area Container -->
+    <div class="w3-container w3-center" id="contact" style="padding-bottom: 32px;">
+
+        <h1 class="w3-center"><span class="font-weight-bold text-primary">Contact Us:</span></h1>
+        <p style="color: grey;" class="font-weight-bold"> react.india@sparkin.io</p>
+
+    </div>
+
+
+        <!--<div class="w3-container" id="where" style="padding-bottom:32px;">-->
+        <!--<div class="w3-content" style="max-width:700px">-->
+            <!--<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>-->
+            <!--<p>Find us at some address at some place.</p>-->
+            <!--<img src="/w3images/map.jpg" class="w3-image" style="width:100%">-->
+            <!--<p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>-->
+            <!--<p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>-->
+            <!--<form action="/action_page.php" target="_blank">-->
+                <!--<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>-->
+                <!--<p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>-->
+                <!--<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>-->
+                <!--<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>-->
+                <!--<p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>-->
+            <!--</form>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!-- End page content -->
+</div>
+
+<!-- Footer -->
+<!--<footer class="w3-center w3-light-grey w3-padding-48 w3-large">-->
+    <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+<!--</footer>-->
+
+<script>
+    // Tabbed Menu
+    function register(){
+        location.href="multi-step-form/index.html";
+    }
+    function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+    }
+    document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
